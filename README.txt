@@ -2,7 +2,7 @@
 Contributors: steaders, EnigmaWeb
 Tags: slider, text, slideshow, banner
 Requires at least: 3.5.1
-Tested up to: 3.9
+Tested up to: 4.5.2
 Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,31 +24,19 @@ A creative way to display key sales messages.
 
 [Click here](http://bluecatcombo.com.au/) to see Text Slider in action.
 
+= Contribute =
+
+Contribtions are welcome via our [GitHub repository](https://github.com/EnigmaWeb/text-slider)
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
 
 = Using The WordPress Dashboard =
 
-1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'Text Slider'
-3. Click 'Install Now'
-4. Activate the plugin and visit 'Text Slider' settings on the left admin menu to configure the plugin
-
-= Uploading in WordPress Dashboard =
-
-1. Navigate to the 'Add New' in the plugins dashboard
-2. Navigate to the 'Upload' area
-3. Select `plugin-name.zip` from your computer
-4. Click 'Install Now'
-5. Activate the plugin and visit 'Text Slider' settings on the left admin menu to configure the plugin
-
-= Using FTP =
-
-1. Download `plugin-name.zip`
-2. Extract the `plugin-name` directory to your computer
-3. Upload the `plugin-name` directory to the `/wp-content/plugins/` directory
-4. Activate the plugin in your Plugins Dashboard, then visit 'Text Slider' settings on the left admin menu to configure the plugin
+1. Upload the `text-slider` folder to the `/wp-content/plugins/` directory or install it from the plugin directory via your Plugins dash.
+1. Activate the Text Slider plugin through the 'Plugins' menu in WordPress
+1. Configure the plugin by going to the `Text Slider` settings tab that appears in your admin menu.
 
 
 == Frequently Asked Questions ==
@@ -68,9 +56,12 @@ Please visit the [Support Forum](http://wordpress.org/support/plugin/text-slider
 
 == Changelog ==
 
-= 1.0 =
-* Initial release.
+= 1.0.3 =
+* Updated Readme
 
 = 1.0.2 =
 * Fix font selection fail in Chrome
 * Fix pixel size so it is applied to text slider.
+
+= 1.0 =
+* Initial release.
