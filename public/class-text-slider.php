@@ -321,7 +321,7 @@ class Text_Slider {
 		wp_localize_script( $this->plugin_slug . '-plugin-script', 'slider_options', $this->js_variables_array );	
 	}
         
-    public function shortcode($attr) {
+    public function shortcode() {
 
         $return = '';
        	$text_slider_settings = get_option('text_slider_settings');
